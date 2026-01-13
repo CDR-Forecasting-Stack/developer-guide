@@ -1,6 +1,6 @@
 site_name: CDR Forecasting Stack Developer Guide
 site_url: https://CDR-Forecasting-Stack.github.io/developer-guide
-repo_name: CDR-Forecasting-Stack/CDR-Forecasting-Stack.github.io
+repo_name: CDR-Forecasting-Stack/developer-guide
 repo_url: https://github.com/CDR-Forecasting-Stack/developer-guide
 theme:
   name: material
