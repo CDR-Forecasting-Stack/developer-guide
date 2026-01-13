@@ -1,0 +1,12 @@
+[project]
+name = "cdr-stack-docs"
+version = "0.1.0"
+description = "Documentation for CDR Forecasting Stack"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "livereload>=2.7.1",
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.7.1",
+    "watchdog>=6.0.0",
+]
