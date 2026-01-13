@@ -1,0 +1,71 @@
+site_name: CDR Forecasting Stack Developer Guide
+site_url: https://CDR-Forecasting-Stack.github.io/developer-guide
+repo_name: CDR-Forecasting-Stack/CDR-Forecasting-Stack.github.io
+repo_url: https://github.com/CDR-Forecasting-Stack/developer-guide
+theme:
+  name: material
+
+  font:
+    text: Inter
+
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
+    - navigation.prune # not compatible with navigation.expand
+    - navigation.top
+    #- navigation.indexes # not compatible with toc.integrate
+    - toc.integrate # integrates toc into sidebar, not compatible with navigation.indexes
+    - toc.follow
+    - search.suggest
+    - content.code.copy
+
+  palette:
+    # Palette toggle for automatic mode
+    #- media: "(prefers-color-scheme)"
+    #  primary: custom
+    #  toggle:
+    #    icon: material/brightness-auto
+    #    name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: custom
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: custom
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - attr_list # to add buttons
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Code of Conduct: code-of-conduct.md
+  - Research Practices: research-practices.md
