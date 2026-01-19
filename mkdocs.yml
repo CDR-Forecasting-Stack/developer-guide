@@ -44,7 +44,7 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       primary: custom
-      scheme: slate
+      scheme: wine-red
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
